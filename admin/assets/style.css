@@ -1,0 +1,32 @@
+.file_uploading {
+    margin-top: 15px;
+}
+.hidden {
+    display: none;
+}
+.gallery { 
+	width:100%; 
+	float:left; 
+}
+.gallery ul{ 
+	margin:0;
+	padding:0; 
+	list-style-type:none;
+}
+.gallery ul li{ 
+	padding:7px; 
+	border:2px solid #ccc;
+	float:left;
+	margin:10px 7px;
+	background:none; 
+	width:auto; 
+	height:auto;
+}
+.images {
+	width:200px;
+	height:200px;
+}
+
+.progress { position:relative; width:400px; border: 1px solid #ddd; padding: 1px; border-radius: 3px; }
+.bar { background-color: #B4F5B4; width:0%; height:20px; border-radius: 3px; }
+.percent { position:absolute; display:inline-block; top:3px; left:48%; }
