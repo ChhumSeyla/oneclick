@@ -13,7 +13,7 @@ if(empty($_SESSION)){ // if the session not yet started
     function getimg($sid){
                  $conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
                  $sql="select * from pro_cache_user where id='".$sid."'";
-               $result = $con->query($sql);
+               $result = $conn->query($sql);
            if ($result->num_rows > 0){
                      while($row = $result->fetch_assoc()) {
                          if ($row['img_profile']!=''){
