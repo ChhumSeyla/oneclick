@@ -12,8 +12,8 @@ if(empty($_SESSION)){ // if the session not yet started
   //-----------------get image profile --------------------------------
     function getimg($sid){
                  $conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
-                 $sql="select * from user where Phone='".$sid."'";
-               $result = $conn->query($sql);
+                 $sql="select * from pro_cache_user where id='".$sid."'";
+               $result = $con->query($sql);
            if ($result->num_rows > 0){
                      while($row = $result->fetch_assoc()) {
                          if ($row['img_profile']!=''){
@@ -102,7 +102,7 @@ if(empty($_SESSION)){ // if the session not yet started
     <div class="sidebar">
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="profile/<?php echo getimg($_SESSION['staffID']); ?>"  class=" elevation-2" alt="User Image">
+          <img src="profile/<?php echo getimg($_SESSION['uid']); ?>"  class=" elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="index.php?page=profile" class="d-block"><span class="hidden-xs"><?php echo $_SESSION["staffID"] ?></span></a>
