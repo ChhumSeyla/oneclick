@@ -83,7 +83,7 @@
 </div>
 <script type="text/javascript">
 var current_page = 1;
-var records_per_page = 30;
+var records_per_page = 100;
 
 var objJson = <?php echo json_encode($data1); ?>; // Can be obtained from another source, such as your objJson variable
 
