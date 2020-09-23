@@ -84,7 +84,8 @@ if(isset($_REQUEST['btnADD'])){
                     <input class="form-control form-control-navbar" type="search" name="search" placeholder="Search" aria-label="Search">
                     <div class="input-group-append">
                       <button class="btn btn-navbar " type="submit" name="btnsearch" >
-                        <i style="color: white" class="fas fa-search"></i>
+                        
+                       <i style="color: white" class="fa fa-fw fa-search"></i>
                       </button>
                     </div>
                   </div>
