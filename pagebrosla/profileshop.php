@@ -148,7 +148,7 @@ if(isset($_REQUEST['like'])){
   
     ?>
     <!-- video show-->
-    <section class="content-header col-sm-6" >
+    <!-- <section class="content-header col-sm-6" >
         <div class="card-body" style="margin-top: 40px" >
           <div class="row">
                       <div class="card card-solid">
@@ -225,5 +225,5 @@ if(isset($_REQUEST['like'])){
             </div>
           </div> 
         </div>
-    </section> 
+    </section>  -->
   </div>
