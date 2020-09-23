@@ -59,7 +59,7 @@ $newImg = '&nbsp;<img style="margin-top:-14px;" src="images/newicon.gif" alt="ne
   <!-- JQVMap -->
   <!-- <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css"> -->
   <!-- Theme style -->
-  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
   <!-- overlayScrollbars -->
   <!-- <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css"> -->
   <!-- Daterange picker -->
