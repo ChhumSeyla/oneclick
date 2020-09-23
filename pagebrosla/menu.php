@@ -14,12 +14,12 @@ if(isset($_REQUEST['btnADD'])){
     $username = str_replace("'", "''", $username);
     $password= str_replace("'", "''", $password);
     $file = str_replace("'", "''", $file);
-    if (strlen($title)<9 || $title>10  ){
-      echo "<script type=\"text/javascript\">
-              window.location = \"index.php?page=home&not_phone\"
-            </script>";
-    }
-    else{
+    // if (strlen($title)<9 || $title>10  ){
+    //   echo "<script type=\"text/javascript\">
+    //           window.location = \"index.php?page=home&not_phone\"
+    //         </script>";
+    // }
+    // else{
     if(!empty($file)){
       $stInsert = "INSERT INTO pro_cache_user (staff_id,name,phone,email,img_profile,branch,status,Type)
       VALUES ('$title','$username','','','$dates$file','$password','1','0')";
@@ -49,7 +49,7 @@ if(isset($_REQUEST['btnADD'])){
             </script>";
       }
     }
-  }
+  // }
   }
   if(isset($_REQUEST['btnsearch'])){
     $search=$_REQUEST['search'];
