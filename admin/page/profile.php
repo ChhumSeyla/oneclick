@@ -153,7 +153,7 @@ img {
               <i class="fa fa-camera upload-button"></i>
               <form>
               <input class="file-upload" type="file" id="profile" accept="image/*" style="display:none">
-              <img class="profile-user-img img-responsive img-circle profile-pic" src="profile/<?php echo getimg($_SESSION['staffID']); ?>" 
+              <img class="profile-user-img img-responsive img-circle profile-pic" src="profile/<?php echo getimg($_SESSION['uid']); ?>" 
                alt="User profile picture" width="300" height="300">
                 
               <h3 class="profile-username text-center"><?php echo $_SESSION['name']; ?></h3>
